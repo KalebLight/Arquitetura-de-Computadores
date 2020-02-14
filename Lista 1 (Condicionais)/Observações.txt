@@ -1,0 +1,11 @@
+Observações: Obs.: Onde houver "raiz quadrada' substituir por quadrado (x*x);
+ 		   Onde a mensagem for "Número Inválido" use "NI" 
+
+Questões não elegíveis 03, 09, 24, 25, 28, 32, 33, 36, 39, 40 e 41 
+questão 4: fazer somente o número ao quadrado 
+questão 10: use as fórmulas: Homens: (73 * h) - 58 e Mulheres: (62 * h) - 45 
+questão 12: calcular o número elevado a três no lugar do logaritmo 
+questão 15: abstrair o uso do switch 
+questão 16: ibdem 
+questão 21: considerar o menu como dado 
+questão 37: usar os valores R$ 1; R$ 2 e R$ 5, respectivamente na tabela
