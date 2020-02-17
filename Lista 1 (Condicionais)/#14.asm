@@ -48,13 +48,19 @@ calcQuest:
 	beq $15, $0, recuperacao
 	j aprovado
 reprovado:
+	add $4, $0, $11
+	addi $2, $0, 1
+	syscall
 	addi $4, $0, 'R'
 	addi $2, $0, 11
 	syscall
 	addi $4, $0, 'V'
 	syscall
 	j fim
-recuperacao:		
+recuperacao:	
+	add $4, $0, $11
+	addi $2, $0, 1
+	syscall	
 	addi $4, $0, 'R'
 	addi $2, $0, 11
 	syscall
@@ -62,6 +68,9 @@ recuperacao:
 	syscall
 	j fim
 aprovado:
+	add $4, $0, $11
+	addi $2, $0, 1
+	syscall
 	addi $4, $0, 'A'
 	addi $2, $0, 11
 	syscall
