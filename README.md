@@ -22,6 +22,6 @@ Programa que cria figuras geométricas com informações passadas pelo usuário.
 - Uma vez que uma linha ou quadrado foi desenhado, tem-se a opção de movê-lo pela tela usando os botões WASD na janela KEYBOARD na ferramenta  'Keyboard and Display MMIO Simulator'.
 - Você pode parar o programa digitando 'p'
 ###### OBSERVAÇÕES
-Há um pequeno erro para desenhar um quadrado (ou retângulo) na tela com as seguintes condições: Xinicial > Xfinal && Yinicial > Yfinal  // Xinicial > Xfinal && Yinicial < Yfinal
-O erro é que o desenho apresenta um pixel a mais do que o esperado
-As linhas podem ser desenhadas dando coordenadas da esquerda pra direita ou vice-versa, e de cima pra baixo ou vice-versa. Os quadrados podem ser desenhados da mesma forma.
+- Há um pequeno erro para desenhar um quadrado (ou retângulo) na tela com as seguintes condições: Xinicial > Xfinal && Yinicial > Yfinal  // Xinicial > Xfinal && Yinicial < Yfinal.
+- O erro é que o desenho apresenta um pixel a mais do que o esperado.
+- As linhas podem ser desenhadas dando coordenadas da esquerda pra direita ou vice-versa, e de cima pra baixo ou vice-versa. Os quadrados podem ser desenhados da mesma forma.
